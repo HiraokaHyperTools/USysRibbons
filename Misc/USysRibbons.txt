@@ -1,0 +1,2 @@
+DoCmd.RunSQL "create table USysRibbons(ID counter, RibbonName varchar(255), RibbonXml memo, CONSTRAINT [PrimaryKey] PRIMARY KEY ([ID]))"
+DoCmd.RunSQL "drop table USysRibbons"
