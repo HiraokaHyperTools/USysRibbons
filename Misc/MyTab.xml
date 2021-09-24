@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="customTab" label="A Custom Tab" visible="true">
+        <group id="normalGroup" label="Normal buttons">
+          <button id="a1" label="One" keytip="1" size="normal" onAction="onAction"/>
+          <button id="a2" label="Two" keytip="2" size="normal" onAction="onAction"/>
+          <button id="a3" label="Three" keytip="3" size="normal" onAction="onAction"/>
+          <button id="a4" label="Four" keytip="4" size="normal" onAction="onAction"/>
+          <button id="a5" label="Five" keytip="5" size="normal" onAction="onAction"/>
+          <separator id="a5x"/>
+          <toggleButton id="at1" label="Toggle one" keytip="1" size="normal" onAction="onAction2"/>
+          <toggleButton id="at2" label="Toggle two" keytip="2" size="normal" onAction="onAction2"/>
+          <toggleButton id="at3" label="Toggle three" keytip="3" size="normal" onAction="onAction2"/>
+          <toggleButton id="at4" label="Toggle four" keytip="4" size="normal" onAction="onAction2"/>
+          <toggleButton id="at5" label="Toggle five" keytip="5" size="normal" onAction="onAction2"/>
+          <separator id="at5x"/>
+          <splitButton id="as1" size="normal">
+            <button id="as1b" label="Split One"/>
+            <menu id="as1m" label="Menu"/>
+          </splitButton>
+          <splitButton id="as2" size="normal">
+            <button id="as2b" label="Split Two"/>
+            <menu id="as2m" label="Menu"/>
+          </splitButton>
+          <splitButton id="as3" size="normal">
+            <button id="as3b" label="Split Three"/>
+            <menu id="as3m" label="Menu"/>
+          </splitButton>
+        </group>
+        <group id="largeGroup" label="Large buttons">
+          <button id="b1" label="One" keytip="1" size="large" onAction="onAction"/>
+          <button id="b2" label="Two" keytip="2" size="large" onAction="onAction"/>
+          <button id="b3" label="Three" keytip="3" size="large" onAction="onAction"/>
+          <separator id="b5x"/>
+          <toggleButton id="bt1" label="Toggle one" keytip="1" size="large" onAction="onAction2"/>
+          <toggleButton id="bt2" label="Toggle two" keytip="2" size="large" onAction="onAction2"/>
+          <toggleButton id="bt3" label="Toggle three" keytip="3" size="large" onAction="onAction2"/>
+          <separator id="bt5x"/>
+          <splitButton id="bs1" size="large">
+            <button id="bs1b" label="Split One"/>
+            <menu id="bs1m" label="Menu"/>
+          </splitButton>
+          <splitButton id="bs2" size="large">
+            <button id="bs2b" label="Split Two"/>
+            <menu id="bs2m" label="Menu"/>
+          </splitButton>
+          <splitButton id="bs3" size="large">
+            <button id="bs3b" label="Split Three"/>
+            <menu id="bs3m" label="Menu"/>
+          </splitButton>
+        </group>
+        <group id="labelsGroup" label="Labels">
+          <labelControl id="c1" label="Label 1"/>
+          <labelControl id="c2" label="Label 2"/>
+          <labelControl id="c3" label="Label 3"/>
+          <labelControl id="c4" label="Label 4"/>
+          <labelControl id="c5" label="Label 5"/>
+        </group>
+        <group id="checksGroup" label="Check boxes">
+          <checkBox id="d1" label="One"/>
+          <checkBox id="d2" label="Two"/>
+          <checkBox id="d3" label="Three"/>
+        </group>
+        <group id="editsGroup" label="Edit boxes">
+          <editBox id="e1" label="One"/>
+          <editBox id="e2" label="Two"/>
+          <editBox id="e3" label="Three"/>
+        </group>
+        <group id="comboGroup" label="Combo boxes">
+          <comboBox id="f1" label="One">
+            <item id="g1" label="Item 1"/>
+            <item id="g2" label="Item 2"/>
+            <item id="g3" label="Item 3"/>
+          </comboBox>
+          <comboBox id="f2" label="Two"/>
+          <comboBox id="f3" label="Three"/>
+        </group>
+        <group id="dropDownGroup" label="Drop downs">
+          <dropDown id="h1" label="One">
+            <item id="i1" label="Item 1"/>
+            <item id="i2" label="Item 2"/>
+            <item id="i3" label="Item 3"/>
+            <button id="i4" label="Button 1"/>
+            <button id="i5" label="Button 2"/>
+            <button id="i6" label="Button 3"/>
+          </dropDown>
+          <dropDown id="h2" label="Two"/>
+          <dropDown id="h3" label="Three"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
