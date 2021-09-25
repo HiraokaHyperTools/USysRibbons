@@ -12,6 +12,28 @@ MSDN topics:
 - [Access 2007 Unbound Attachment Control](https://social.msdn.microsoft.com/Forums/ja-JP/516445e6-6892-4ea1-ad12-6e2c5c61515f/access-2007-unbound-attachment-control?forum=isvvba)
 - [Access 2016 のリボンをカスタマイズする](https://social.msdn.microsoft.com/Forums/sqlserver/ja-JP/dc62e547-27d4-4180-9b48-fc81a3082305/access-2016?forum=officesupportteamja)
 
+LoadPictureGDI:
+
+- [GDIplusCODE](http://gdipluscode.sakura.ne.jp/collection/file2picture_en.html)
+
+File Type: txt modLoadPictureGDI.txt
+
+- [VBA: LoadPictureGDI is displaying a black background for PNG image-VBForums](https://www.vbforums.com/showthread.php?783321-VBA-LoadPictureGDI-is-displaying-a-black-background-for-PNG-image)
+
+A Microsoft Word Help & Tip page by Gregory K. Maxey:
+
+- [Ribbon Gallery Control](https://gregmaxey.com/word_tip_pages/ribbon_gallery_control.html)
+
+## ImageMso
+
+GetImageMso:
+
+- [CommandBars.GetImageMso method (Office) | Microsoft Docs](https://docs.microsoft.com/en-us/office/vba/api/office.commandbars.getimagemso)
+
+ImageMSO:
+
+- [Microsoft Office Icons (ImageMSO) Gallery & Extraction - CodePlex Archive](https://archive.codeplex.com/?p=imagemso)
+
 ## Misc
 
 - [[MS-CUSTOMUI2]: http://schemas.microsoft.com/office/2009/07/customui Schema | Microsoft Docs](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-customui2/daabc2cd-b3f5-4d32-9099-95d705f70f35)
@@ -24,7 +46,7 @@ MSDN topics:
 - [Dgis XSD Diagram](http://regis.cosnier.free.fr/?page=XSDDiagram)
 - [XsdVi download | SourceForge.net](https://sourceforge.net/projects/xsdvi/)
 
-## Registry
+## ReportAddinCustomUIErrors
 
 - [Access 2010 Set Option Show add-in user interface errors via vba](https://social.msdn.microsoft.com/Forums/office/en-US/c3c54c12-6cbd-404a-8709-dba485f82377/access-2010-set-option-show-addin-user-interface-errors-via-vba?forum=accessdev)
 
